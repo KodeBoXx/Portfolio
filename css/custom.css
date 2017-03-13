@@ -1,17 +1,55 @@
 header {
-  height: 100vh;
-  background-image: url(../images/blue.jpg);
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+	height: 100vh;
+	background-image: url(../images/blue2.png);
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
 
 p {
-  width: 600px;
-  margin: 0 auto 20px; }
+	width: 600px;
+	margin: 0 auto 20px;
+}
 
-/*# sourceMappingURL=custom.css.map */
+.back-img {
+	position: relative;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.logo {
+	/* background-color: red; */
+	background-position: center;
+	position: absolute;
+	font-size: 100px;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+.fore-back-img {
+	width: 600px;
+	height: 600px;
+	background-image: url(../images/lap1.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 65%;
+	top: 40%;
+}
+
+.mid-back-img {
+	width: 800px;
+	height: 400px;
+	background-image: url(../images/bubble.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	right: 8%;
+	top: 0%;
+	
+}
