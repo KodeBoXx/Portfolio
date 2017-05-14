@@ -1,0 +1,57 @@
+.box {
+	height: 200px;
+	position: absolute;
+	left: 0px;
+	transition: left 3s;
+	display: inline-flex;
+}
+
+.allboxx {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 223px;
+	overflow: hidden;
+}
+
+.blank {
+	height: 100px;
+}
+
+.cata {
+	height: 200px;
+	width: 150px;
+	background-color: grey;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+
+.myleft {
+	left: 0;
+}
+
+.myright {
+	right: 0px;
+}
+
+.control-button {
+	padding: 14px 0px;
+	border: 1px solid #d8d8d8;
+	background-color: rgba(100, 106, 255, 0.66);
+	color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.control-box {
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	width: 70px;
+	font-size: 20px;
+	color: #101010;
+	text-align: center;
+	transform: translate(0%, -50%);
+	z-index: 2000;
+}

@@ -1,0 +1,79 @@
+.topHeader {
+	width: 100%;
+	height: 60px;
+	background-color: #80ffff;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+.btn {
+	border-radius: 0px;
+}
+
+.btn-search {
+	background-color: #578cff;
+	color: white;
+}
+
+.test {
+	height: 800px;
+}
+
+.wrapper {
+	
+}
+
+.mymain {
+	width: 180px;
+	height: 500px;
+	float: left;
+	display: none;
+	position: relative;
+}
+
+.mymain.fixednav {
+	position: fixed;
+	top: 50px;
+}
+
+.mydata {
+	/* float: left; */
+	
+}
+
+.mydata-toogle {
+	margin-left: 185px;
+}
+
+.navig-container {
+	height: 100%;
+	/* margin-right: 15px; */
+	background-color: #222222;
+}
+
+.nav-head {
+	padding: 13px 14px 10px 14px;
+	font-size: 17px;
+	font-weight: 700;
+	color: #9e9696;
+	text-align: center;
+}
+
+.nav-li {
+	border-radius: 0px !important;
+}
+
+.on-main {
+	width: 168px;
+}
+
+.navbar {
+	margin-bottom: 0px !important;
+}
